@@ -44,8 +44,8 @@ def map(pos):
     elif(pos==len(tr.HELP_MSG)-1):
         url = "https://t.me/anti555"
         button = [
-            [InlineKeyboardButton(text = 'Botu Qrupa Əlavə Et ✅', url="t.me/fsubbot?startgroup=true")],
-            [InlineKeyboardButton(text = 'Rəsmi Kanalımız📣', url=url)],
+            [InlineKeyboardButton(text = 'Botu Qrupa Əlavə Et ✅', url="t.me/PoseidonSubscribeBot?startgroup=true")],
+            [InlineKeyboardButton(text = 'Developer 🌐', url=url="t.me/Nixhadj")],
             [InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}")]
         ]
     else:
